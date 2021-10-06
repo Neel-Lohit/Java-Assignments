@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.SearchFileUsingRegex/1.SearchFileUsingRegex.iml" filepath="$PROJECT_DIR$/1.SearchFileUsingRegex/1.SearchFileUsingRegex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10.GenericArrays/10.GenericArrays.iml" filepath="$PROJECT_DIR$/10.GenericArrays/10.GenericArrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11.IO/11.IO.iml" filepath="$PROJECT_DIR$/11.IO/11.IO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/12.Streams/12.Streams.iml" filepath="$PROJECT_DIR$/12.Streams/12.Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2.ContainsAllAlphabets/2.ContainsAllAlphabets.iml" filepath="$PROJECT_DIR$/2.ContainsAllAlphabets/2.ContainsAllAlphabets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3.Ping/3.Ping.iml" filepath="$PROJECT_DIR$/3.Ping/3.Ping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4.KycDateRange/4.KycDateRange.iml" filepath="$PROJECT_DIR$/4.KycDateRange/4.KycDateRange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5.DefaultInitializationAssignment/5.DefaultInitializationAssignment.iml" filepath="$PROJECT_DIR$/5.DefaultInitializationAssignment/5.DefaultInitializationAssignment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6.OperatorsAndMore/6.OperatorsAndMore.iml" filepath="$PROJECT_DIR$/6.OperatorsAndMore/6.OperatorsAndMore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7.AccessControlandMore/7.AccessControlandMore.iml" filepath="$PROJECT_DIR$/7.AccessControlandMore/7.AccessControlandMore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/8.ErrorHandling/8.ErrorHandling.iml" filepath="$PROJECT_DIR$/8.ErrorHandling/8.ErrorHandling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/9.Regex/9.Regex.iml" filepath="$PROJECT_DIR$/9.Regex/9.Regex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java-Assignments.iml" filepath="$PROJECT_DIR$/.idea/Java-Assignments.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O'Reilly-Lamdas-And-Streams/O'Reilly-Lamdas-And-Streams.iml" filepath="$PROJECT_DIR$/O'Reilly-Lamdas-And-Streams/O'Reilly-Lamdas-And-Streams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/O'Reilly-coding-exercise/O'Reilly-coding-exercise.iml" filepath="$PROJECT_DIR$/O'Reilly-coding-exercise/O'Reilly-coding-exercise.iml" />
+    </modules>
+  </component>
+</project>

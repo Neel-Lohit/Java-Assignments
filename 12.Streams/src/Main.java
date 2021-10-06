@@ -21,7 +21,15 @@ public class Main {
         studentArrayList.add(new Student(255, "Ali Baig", 17, "Male", "Electronic", 2018, 88.4));
         studentArrayList.add(new Student(266, "Sanvi Pandey", 17, "Female", "Electric", 2019, 72.4));
         studentArrayList.add(new Student(277, "Anuj Chettiar", 18, "Male", "Computer Science", 2017, 57.5));
-        System.out.println("\nDepartment Names:");
+
+       exercise(studentArrayList);
+       
+         }
+
+
+    public static void exercise(List<Student> studentArrayList){
+
+    	System.out.println("\nDepartment Names:");
         studentArrayList.stream().map(student-> student.engDepartment).distinct().forEach(System.out::println);
         System.out.println("\nStudents names enrolled after 2018:");
         studentArrayList.stream().filter(student -> student.yearOfEnrollment>2018).map(student -> student.name).forEach(System.out::println);
@@ -35,5 +43,6 @@ public class Main {
         studentArrayList.stream().collect(Collectors.groupingBy(Student::getEngDepartment,Collectors.averagingDouble(Student::getPerTillDate))).forEach((dept, average) -> System.out.println("Average percentage of "+dept+ ": "+average));
         System.out.println("Youngest Male Student in Electronics: "+studentArrayList.stream().filter(student -> student.gender.equals("Male")).filter(student -> student.getEngDepartment().equals("Electronic")).collect(Collectors.minBy(Comparator.comparingInt(Student::getAge))).get());
         studentArrayList.stream().filter(student -> student.engDepartment.equals("Computer Science")).collect(Collectors.groupingBy(Student::getGender)).forEach((gender, total) -> System.out.println("No of "+gender+" in Computer Science: "+total.size()));
+
     }
 }
